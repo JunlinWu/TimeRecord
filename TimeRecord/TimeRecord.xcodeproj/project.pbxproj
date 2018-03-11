@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		224AEE1220538F3700B38035 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 224AEE1120538F3700B38035 /* AppDelegate.m */; };
+		224AEE1520538F3700B38035 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 224AEE1420538F3700B38035 /* main.m */; };
+		224AEE1820538F3700B38035 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 224AEE1720538F3700B38035 /* ViewController.m */; };
+		224AEE1A20538F3700B38035 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 224AEE1920538F3700B38035 /* Assets.xcassets */; };
+		224AEE1D20538F3700B38035 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224AEE1B20538F3700B38035 /* Main.storyboard */; };
+		224AEE2820538F3700B38035 /* TimeRecordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 224AEE2720538F3700B38035 /* TimeRecordTests.m */; };
+		224AEE3320538F3700B38035 /* TimeRecordUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 224AEE3220538F3700B38035 /* TimeRecordUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		224AEE2420538F3700B38035 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 224AEE0520538F3700B38035 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 224AEE0C20538F3700B38035;
+			remoteInfo = TimeRecord;
+		};
+		224AEE2F20538F3700B38035 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 224AEE0520538F3700B38035 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 224AEE0C20538F3700B38035;
+			remoteInfo = TimeRecord;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		224AEE0D20538F3700B38035 /* TimeRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		224AEE1020538F3700B38035 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		224AEE1120538F3700B38035 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		224AEE1420538F3700B38035 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		224AEE1620538F3700B38035 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		224AEE1720538F3700B38035 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		224AEE1920538F3700B38035 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		224AEE1C20538F3700B38035 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		224AEE1E20538F3700B38035 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		224AEE2320538F3700B38035 /* TimeRecordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeRecordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		224AEE2720538F3700B38035 /* TimeRecordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeRecordTests.m; sourceTree = "<group>"; };
+		224AEE2920538F3700B38035 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		224AEE2E20538F3700B38035 /* TimeRecordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeRecordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		224AEE3220538F3700B38035 /* TimeRecordUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeRecordUITests.m; sourceTree = "<group>"; };
+		224AEE3420538F3700B38035 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		224AEE0A20538F3700B38035 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224AEE2020538F3700B38035 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224AEE2B20538F3700B38035 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		224AEE0420538F3700B38035 = {
+			isa = PBXGroup;
+			children = (
+				224AEE0F20538F3700B38035 /* TimeRecord */,
+				224AEE2620538F3700B38035 /* TimeRecordTests */,
+				224AEE3120538F3700B38035 /* TimeRecordUITests */,
+				224AEE0E20538F3700B38035 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		224AEE0E20538F3700B38035 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				224AEE0D20538F3700B38035 /* TimeRecord.app */,
+				224AEE2320538F3700B38035 /* TimeRecordTests.xctest */,
+				224AEE2E20538F3700B38035 /* TimeRecordUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		224AEE0F20538F3700B38035 /* TimeRecord */ = {
+			isa = PBXGroup;
+			children = (
+				224AEE1020538F3700B38035 /* AppDelegate.h */,
+				224AEE1120538F3700B38035 /* AppDelegate.m */,
+				224AEE1620538F3700B38035 /* ViewController.h */,
+				224AEE1720538F3700B38035 /* ViewController.m */,
+				224AEE1920538F3700B38035 /* Assets.xcassets */,
+				224AEE1B20538F3700B38035 /* Main.storyboard */,
+				224AEE1E20538F3700B38035 /* Info.plist */,
+				224AEE1320538F3700B38035 /* Supporting Files */,
+			);
+			path = TimeRecord;
+			sourceTree = "<group>";
+		};
+		224AEE1320538F3700B38035 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				224AEE1420538F3700B38035 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		224AEE2620538F3700B38035 /* TimeRecordTests */ = {
+			isa = PBXGroup;
+			children = (
+				224AEE2720538F3700B38035 /* TimeRecordTests.m */,
+				224AEE2920538F3700B38035 /* Info.plist */,
+			);
+			path = TimeRecordTests;
+			sourceTree = "<group>";
+		};
+		224AEE3120538F3700B38035 /* TimeRecordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				224AEE3220538F3700B38035 /* TimeRecordUITests.m */,
+				224AEE3420538F3700B38035 /* Info.plist */,
+			);
+			path = TimeRecordUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		224AEE0C20538F3700B38035 /* TimeRecord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 224AEE3720538F3700B38035 /* Build configuration list for PBXNativeTarget "TimeRecord" */;
+			buildPhases = (
+				224AEE0920538F3700B38035 /* Sources */,
+				224AEE0A20538F3700B38035 /* Frameworks */,
+				224AEE0B20538F3700B38035 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeRecord;
+			productName = TimeRecord;
+			productReference = 224AEE0D20538F3700B38035 /* TimeRecord.app */;
+			productType = "com.apple.product-type.application";
+		};
+		224AEE2220538F3700B38035 /* TimeRecordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 224AEE3A20538F3700B38035 /* Build configuration list for PBXNativeTarget "TimeRecordTests" */;
+			buildPhases = (
+				224AEE1F20538F3700B38035 /* Sources */,
+				224AEE2020538F3700B38035 /* Frameworks */,
+				224AEE2120538F3700B38035 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				224AEE2520538F3700B38035 /* PBXTargetDependency */,
+			);
+			name = TimeRecordTests;
+			productName = TimeRecordTests;
+			productReference = 224AEE2320538F3700B38035 /* TimeRecordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		224AEE2D20538F3700B38035 /* TimeRecordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 224AEE3D20538F3700B38035 /* Build configuration list for PBXNativeTarget "TimeRecordUITests" */;
+			buildPhases = (
+				224AEE2A20538F3700B38035 /* Sources */,
+				224AEE2B20538F3700B38035 /* Frameworks */,
+				224AEE2C20538F3700B38035 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				224AEE3020538F3700B38035 /* PBXTargetDependency */,
+			);
+			name = TimeRecordUITests;
+			productName = TimeRecordUITests;
+			productReference = 224AEE2E20538F3700B38035 /* TimeRecordUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		224AEE0520538F3700B38035 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Dykes Wu";
+				TargetAttributes = {
+					224AEE0C20538F3700B38035 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					224AEE2220538F3700B38035 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 224AEE0C20538F3700B38035;
+					};
+					224AEE2D20538F3700B38035 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 224AEE0C20538F3700B38035;
+					};
+				};
+			};
+			buildConfigurationList = 224AEE0820538F3700B38035 /* Build configuration list for PBXProject "TimeRecord" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 224AEE0420538F3700B38035;
+			productRefGroup = 224AEE0E20538F3700B38035 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				224AEE0C20538F3700B38035 /* TimeRecord */,
+				224AEE2220538F3700B38035 /* TimeRecordTests */,
+				224AEE2D20538F3700B38035 /* TimeRecordUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		224AEE0B20538F3700B38035 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224AEE1A20538F3700B38035 /* Assets.xcassets in Resources */,
+				224AEE1D20538F3700B38035 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224AEE2120538F3700B38035 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224AEE2C20538F3700B38035 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		224AEE0920538F3700B38035 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224AEE1820538F3700B38035 /* ViewController.m in Sources */,
+				224AEE1520538F3700B38035 /* main.m in Sources */,
+				224AEE1220538F3700B38035 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224AEE1F20538F3700B38035 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224AEE2820538F3700B38035 /* TimeRecordTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224AEE2A20538F3700B38035 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224AEE3320538F3700B38035 /* TimeRecordUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		224AEE2520538F3700B38035 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 224AEE0C20538F3700B38035 /* TimeRecord */;
+			targetProxy = 224AEE2420538F3700B38035 /* PBXContainerItemProxy */;
+		};
+		224AEE3020538F3700B38035 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 224AEE0C20538F3700B38035 /* TimeRecord */;
+			targetProxy = 224AEE2F20538F3700B38035 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		224AEE1B20538F3700B38035 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				224AEE1C20538F3700B38035 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		224AEE3520538F3700B38035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		224AEE3620538F3700B38035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		224AEE3820538F3700B38035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TimeRecord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = beta001.TimeRecord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		224AEE3920538F3700B38035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TimeRecord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = beta001.TimeRecord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		224AEE3B20538F3700B38035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TimeRecordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = beta001.TimeRecordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeRecord.app/Contents/MacOS/TimeRecord";
+			};
+			name = Debug;
+		};
+		224AEE3C20538F3700B38035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TimeRecordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = beta001.TimeRecordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeRecord.app/Contents/MacOS/TimeRecord";
+			};
+			name = Release;
+		};
+		224AEE3E20538F3700B38035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TimeRecordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = beta001.TimeRecordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TimeRecord;
+			};
+			name = Debug;
+		};
+		224AEE3F20538F3700B38035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TimeRecordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = beta001.TimeRecordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TimeRecord;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		224AEE0820538F3700B38035 /* Build configuration list for PBXProject "TimeRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224AEE3520538F3700B38035 /* Debug */,
+				224AEE3620538F3700B38035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		224AEE3720538F3700B38035 /* Build configuration list for PBXNativeTarget "TimeRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224AEE3820538F3700B38035 /* Debug */,
+				224AEE3920538F3700B38035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		224AEE3A20538F3700B38035 /* Build configuration list for PBXNativeTarget "TimeRecordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224AEE3B20538F3700B38035 /* Debug */,
+				224AEE3C20538F3700B38035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		224AEE3D20538F3700B38035 /* Build configuration list for PBXNativeTarget "TimeRecordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224AEE3E20538F3700B38035 /* Debug */,
+				224AEE3F20538F3700B38035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 224AEE0520538F3700B38035 /* Project object */;
+}

@@ -8,3 +8,6 @@ Here are some basic functions:
 1. Push "Start" button to start or continue the Time Recording, then the "Start" button will be turned to the "Stop" button;
 2. When Time Recording is on, push "Stop" button to stop the Time Recording, then the "Stop" button will be turned to the "Start" Button;
 3. Push "End" button in any case to end the Time Recording, then the "Start" button / "Stop" button will be reset to the "Start" button;
+
+
+And the GraphGeneration is for generating the line graph of date-and-time, using for analyzing the results.

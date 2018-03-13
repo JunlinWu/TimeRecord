@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<productAdditionalComps>
+   <dependsOn>
+      <component>
+         <name>GraphGeneration</name>
+         <locale/>
+         <platformList>
+            <platform>maci64</platform>
+         </platformList>
+         <version>1.0</version>
+      </component>
+   </dependsOn>
+   <isControllingProduct>true</isControllingProduct>
+   <platform>maci64</platform>
+   <productName>GraphGeneration</productName>
+   <productNumber>5000</productNumber>
+   <productVersion>1.0</productVersion>
+   <releaseFamily>R2014b</releaseFamily>
+   <releaseDescription>R2014b</releaseDescription>
+</productAdditionalComps>

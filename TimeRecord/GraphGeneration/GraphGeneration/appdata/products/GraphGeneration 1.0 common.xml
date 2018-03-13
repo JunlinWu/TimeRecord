@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<productData>
+   <dependsOn>
+      <component>
+         <name>GraphGeneration</name>
+         <locale/>
+         <platformList>
+            <platform>glnxa64</platform>
+            <platform>maci64</platform>
+            <platform>win32</platform>
+            <platform>win64</platform>
+         </platformList>
+         <version>1.0</version>
+      </component>
+   </dependsOn>
+   <installerUsage>
+      <usage>mcr</usage>
+   </installerUsage>
+   <isControllingProduct>true</isControllingProduct>
+   <platformList>
+      <platform>glnxa64</platform>
+      <platform>maci64</platform>
+      <platform>win32</platform>
+      <platform>win64</platform>
+   </platformList>
+   <productName>GraphGeneration</productName>
+   <productNumber>5000</productNumber>
+   <productVersion>1.0</productVersion>
+   <releaseFamily>R2014b</releaseFamily>
+   <releaseDescription>R2014b</releaseDescription>
+   <requiredProducts/>
+</productData>

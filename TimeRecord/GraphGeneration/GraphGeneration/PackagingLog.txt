@@ -1,0 +1,25 @@
+ant:
+<ant>
+  <mkdir dir="/Users/dykeswu/Desktop/GraphGeneration/GraphGeneration/for_redistribution" />
+  <mkdir dir="/Users/dykeswu/Desktop/GraphGeneration/GraphGeneration/for_testing" />
+  <mkdir dir="/Users/dykeswu/Desktop/GraphGeneration/GraphGeneration/for_redistribution_files_only" />
+</ant>
+mcc -o GraphGeneration -W WinMain:GraphGeneration -T link:exe -d /Users/dykeswu/Desktop/GraphGeneration/GraphGeneration/for_testing -v /Users/dykeswu/Desktop/GraphGeneration/GraphGeneration.m 
+Compiler version: 5.2 (R2014b)
+Dependency analysis by REQUIREMENTS.
+[Warning: Adding path "/Users/dykeswu/Desktop/GraphGeneration" to Compiler path
+instance.] 
+Parsing file "/Users/dykeswu/Desktop/GraphGeneration/GraphGeneration.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 0 temporary MEX authorization files.
+Generating file "/Users/dykeswu/Desktop/GraphGeneration/GraphGeneration/for_testing/readme.txt".
+Generating file "/Users/dykeswu/Desktop/GraphGeneration/GraphGeneration/for_testing/run_GraphGeneration.sh".
+Packaging...
+Adding custom icon /Applications/MATLAB_R2014b.app/toolbox/compiler/Resources/default_icon.icns to /Users/dykeswu/Desktop/GraphGeneration/GraphGeneration/for_testing/GraphGeneration.app.
+Creating the bundle...
+Copying /Applications/MATLAB_R2014b.app/toolbox/compiler/maci64/setup.app to /Users/dykeswu/Desktop/GraphGeneration/GraphGeneration/for_redistribution/MyAppInstaller_web.app.
+Copying /Users/dykeswu/Desktop/GraphGeneration/GraphGeneration/for_redistribution/bundle.zip to /Users/dykeswu/Desktop/GraphGeneration/GraphGeneration/for_redistribution/MyAppInstaller_web.app/Contents/Resources/bundle.zip.
+Copying /var/folders/mn/ygyxy7ns2nd0npdz_blv6l6r0000gn/T/splash7738809034897933269.tmp to /Users/dykeswu/Desktop/GraphGeneration/GraphGeneration/for_redistribution/MyAppInstaller_web.app/Contents/Resources/splash.png.
+Copying /Applications/MATLAB_R2014b.app/toolbox/compiler/Resources/default_icon.icns to /Users/dykeswu/Desktop/GraphGeneration/GraphGeneration/for_redistribution/MyAppInstaller_web.app/Contents/Resources/installer.icns.
+Web based installer created at /Users/dykeswu/Desktop/GraphGeneration/GraphGeneration/for_redistribution/MyAppInstaller_web.app.
+Packaging complete.

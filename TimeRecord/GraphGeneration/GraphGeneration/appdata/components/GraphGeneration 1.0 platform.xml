@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<componentData>
+   <component>
+      <componentBaseName>GraphGeneration</componentBaseName>
+      <componentFileName>test.enc</componentFileName>
+      <componentName>GraphGeneration</componentName>
+      <componentVersion>1.0</componentVersion>
+      <locale/>
+      <numFiles>0</numFiles>
+      <platformList>
+         <platform>maci64</platform>
+      </platformList>
+      <releaseFamily>R2014b</releaseFamily>
+      <size>0</size>
+      <type/>
+      <uncompressedBytes>0</uncompressedBytes>
+   </component>
+</componentData>
